@@ -1,0 +1,13 @@
+{
+  "name": "simple-mod-installer-shell",
+  "version": "0.0.1",
+  "description": "A shell for the backend of the Simple Mod Installer",
+  "main": "main.js",
+  "repository": "https://github.com/tfff1OFFICIAL/simple-mod-installer-shell",
+  "author": "Tfff1",
+  "license": "MIT",
+  "dependencies": {
+    "electron-prebuilt": "^1.4.13",
+    "request-promise": "^4.2.1"
+  }
+}
