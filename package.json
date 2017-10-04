@@ -8,6 +8,10 @@
   "license": "MIT",
   "dependencies": {
     "electron-prebuilt": "^1.4.13",
+    "electron-sudo": "^4.0.12",
     "request-promise": "^4.2.1"
+  },
+  "scripts": {
+    "start": "electron ."
   }
 }

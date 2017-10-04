@@ -67,9 +67,14 @@ app.on('ready', function() {
 		});
 	});*/
 	
+    var p_path = path.join('resources', 'app', 'bin', 'python');
+	var app_path = path.join('resources', 'app', 'bin', 'simple_mod_installer', '__init__.py')
+
+	console.log("Spawning: " + p_path + " " + app_path);
+
     var subpy = require('child_process').spawn(
-		path.join('bin', 'python'),
-		[path.join('bin', 'simple_mod_installer', '__init__.py')] // Change this to match Python's startup file location.
+		p_path,
+		[app_path] // Change this to match Python's startup file location.
 		/*{
 		    0,
 		    'pipe'
